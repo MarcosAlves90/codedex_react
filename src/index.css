@@ -13,6 +13,81 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.post {
+  border: 6px solid #53705d;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 470px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 7px 0;
+  border-bottom: 2px solid;
+}
+
+.user-name {
+  text-align: left;
+  width: 60%;
+}
+
+#profile-img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.like-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.like-button {
+  width: max-content;
+  display: inline;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.like-button > img {
+  width: 75px;
+}
+
+.like-info > p {
+  width: 75px;
+  text-align: left;
+}
+
+#follow-button {
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+  width: 87px;
+  cursor: pointer;
+}
+
+.following {
+  background-color: hsl(240, 3%, 94%);
+  color: grey;
+}
+
+.not-following {
+  background-color: #d0fd59;
+  color: #53705d;
+}
+
+#post-img {
+  height: 470px;
+  object-fit: cover;
+}
+
+
 a {
   font-weight: 500;
   color: #646cff;
